@@ -21,7 +21,8 @@ Light package that makes typical mail tasks easy:
           'Topic :: Internet',
           'License :: OSI Approved :: BSD License',
       ],
-      license = 'BSD',
+      py_modules=['postamt', ],
+      license='BSD',
       keywords='',
       author='Johannes Steger, Kilian Klimek',
       author_email='jss@coders.de, kilian.klimek@gmail.com',
@@ -30,4 +31,4 @@ Light package that makes typical mail tasks easy:
       install_requires=[
           'setuptools',
       ],
-     )
+      )
